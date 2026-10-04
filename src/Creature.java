@@ -19,4 +19,10 @@ public class Creature {
     public void react() {
         System.out.println("The creature reacts to containment.");
     }
+
+    public final void verifyContainment() {
+        System.out.println("Containment Status: Verified");
+        System.out.println("Name: " + name);
+        System.out.println("Threat Level: " + threatLevel);
+    }
 }

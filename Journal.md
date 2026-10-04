@@ -12,4 +12,7 @@ A Dragon is a Creature because the Dragon class extends the Creature class. This
 
 Polymorphism lets me put different creatures into the same list and use one loop for all of them. Each creature still uses its own react method when the program runs. If I add another creature later, I can put it in the same list without changing the loop. This makes the program easier to update and organize.
 
+# Phase 4
+
+An architect might make a method final when they do not want other classes to change how it works. This can be useful for important methods that should work the same for every subclass. It also prevents other developers from overriding the method by mistake and changing something important in the program.
 
